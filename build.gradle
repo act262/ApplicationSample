@@ -28,7 +28,7 @@ ext {
     versionName = "1.0"
 
     // android build info
-    android = [compileSdkVersion: 25,
+    android = [compileSdkVersion: 24,
                buildToolsVersion: "25.0.0",
                applicationId    : "io.micro.app",
                minSdkVersion    : 15,
