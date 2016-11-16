@@ -12,10 +12,7 @@
         <TabWidget
             android:id="@android:id/tabs"
             android:layout_width="match_parent"
-            android:tabStripEnabled="true"
-            android:tabStripLeft="@color/colorPrimaryDark"
-            android:tabStripRight="@color/colorAccent"
-            android:layout_height="48dp" />
+            android:layout_height="?actionBarSize" />
         <!--
             android:tabStripEnabled="true"
             android:tabStripLeft="@color/colorPrimaryDark"
@@ -31,7 +28,7 @@
                 android:id="@+id/content1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#ff0"
+                android:background="@color/colorPrimary"
                 android:gravity="center"
                 android:text="content1" />
 
@@ -39,7 +36,7 @@
                 android:id="@+id/content2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#f00"
+                android:background="@color/colorAccent"
                 android:gravity="center"
                 android:text="content2" />
         </FrameLayout>
