@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@android:id/tabhost"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <Button
+        android:layout_width="wrap_content"
+        android:text="TabHost Sample"
+        android:onClick="click1"
+        android:layout_height="wrap_content" />
 
-        <TabWidget
-            android:id="@android:id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize" />
-        <!--
-            android:tabStripEnabled="true"
-            android:tabStripLeft="@color/colorPrimaryDark"
-            android:tabStripRight="@color/colorAccent"
-        -->
-
-        <FrameLayout
-            android:id="@android:id/tabcontent"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/content1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorPrimary"
-                android:gravity="center"
-                android:text="content1" />
-
-            <TextView
-                android:id="@+id/content2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/colorAccent"
-                android:gravity="center"
-                android:text="content2" />
-        </FrameLayout>
-    </LinearLayout>
-</TabHost>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="FragmentTabHost Sample"
+        android:onClick="click2"
+        android:layout_height="wrap_content" />
+</LinearLayout>
