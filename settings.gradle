@@ -1,1 +1,1 @@
-include ':app', ':tabhostsample'
+include ':app', ':tabhostsample', ':tablayoutsample'

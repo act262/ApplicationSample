@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 定义数组 -->
+    <string-array name="tabTitles">
+        <item>Tab-a</item>
+        <item>Tab-b</item>
+    </string-array>
+</resources>
